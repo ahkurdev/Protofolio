@@ -76,3 +76,9 @@ The technology selector now contains all 39 items in the owner's supplied image 
 The header motion toggle has been removed. Animations start automatically after hydration, regardless of old local-storage preferences or OS motion settings. The logo rail's own pause button remains scoped to that rail. The root layout declares full motion; there is no global preference control or storage listener.
 
 The owner also requested removal of the logo rail pause button. The rail now runs continuously with no hover, focus, or button pause behavior.
+
+## Production project
+
+Git remote: https://github.com/ahkurdev/Protofolio (main).
+Vercel project: portofolio, team allans-projects-f2f44acb.
+Production domain: https://ahkur.my.id. The existing Vercel project is connected to this repository so future main-branch pushes can deploy automatically. The site origin defaults to this domain and can be overridden with NEXT_PUBLIC_SITE_URL. Local .vercel metadata and authentication files are ignored.
